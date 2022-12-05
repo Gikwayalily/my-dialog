@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    background-color: #212529;
+}
+.main-page{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.avatar-container{
+    width: 120px;
+    height: 120px;
+    border: 1px solid #999;
+    border-radius: 50%;
+    position: relative;
+}
+.avatar-container button{
+    position: absolute;
+    top: -5px;
+    right: 0px;
+    background-color: #495057;
+    border: none;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%
+}
+.avatar-container img{
+    width: 100%;
+}
+.add{
+        width: 120px;
+        height: 120px;
+        border: 1px solid #999;
+        border-radius: 50%;
+        position: relative;
+    }
+/*.add svg{
+        align-items: center;
+        position: absolute;
+        left: 30px;
+        top: 35px;
+    }
+*/
+label{
+    position: absolute;
+    left: 40px;
+    top: 22px;
+    font-size: 4em;
+    color: aliceblue;
+}
+dialog{
+    width: 300px;
+    min-height: 100px;
+    background: #212529;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 3px 8px 9px rgb(0 0 0 / 54%);
+    overflow: hidden;
+}
+.dialog-header{
+    display: flex;
+    height: 60px;
+    background: #495057;
+    box-shadow: 3px 8px 9px rgb(0 0 0 / 54%);
+    align-items: center;
+    padding: 0 16px;
+    gap: 8px;
+}
+.dialog-header svg{
+    stroke: #fff;
+    fill: transparent;
+}
+.dialog-title{
+    font-size: 16px;
+    color: #ffffff;
+}
+.cancel-btn1{
+    background-color: rgb(68, 75, 75);
+    width: 30%;
+    height: 30px;
+    border: 1px solid rgb(9, 0, 0);
+    color: white;
+}
+.cancel-btn2{
+    background-color: rgb(10, 11, 11);
+    width: 30%;
+    height: 30px;
+    border: 1px solid rgb(53, 50, 50);
+    color: rgb(79, 190, 196);
+}

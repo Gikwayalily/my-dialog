@@ -1,0 +1,139 @@
+body{
+    background: #111b21;
+    color: white;
+    font-family: sans-serif;
+}
+.chat{
+    display: flex;
+    gap: 16px;
+}
+.profile_pic{
+    height: 49px;
+    width: 49px;
+    border-radius: 50%;
+}
+.chat_name_time{
+    display: flex;
+    gap: 40px;
+    
+}
+
+.chat_name{
+    font-size: 16px;
+    margin: 0;
+}
+/* .chat_time{
+    position: absolute;
+    right: 20px;
+    top: 12px;
+} */
+
+.last_message{
+    font-size: 13px;
+    margin: 0;
+}
+dialog{
+    width: 420px;
+    height: 280px;
+    background: #1d1f21;
+    border: none;
+    box-shadow:5px 6px 13px  rgb(0,0,0, 0.5);
+    border-radius: 12px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+.title {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    color: white;
+}
+.title svg{
+    fill: white;
+}
+.title h1{
+    font-size: 22px;
+}
+.close{
+    background: #111b21;
+    border: none;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    box-shadow:5px 6px 13px  rgb(0,0,0, 0.5); 
+
+
+}
+.close svg{
+    fill: white;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+.mb-3{
+    width: 420px;
+    height: 100px;
+    background: #2d3133;
+    border: none;
+    box-shadow:5px 6px 13px  rgba(41, 36, 36, 0.5);
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0;  
+    color: aliceblue;
+    justify-content: flex-end ;
+
+}
+.mb-3 p{
+    text-align: start;
+}
+.form-control{
+    background-color: rgba(41, 36, 36, 0.5);
+}
+
+.dialog-actions{
+    width: 420px;
+    height: 200px;
+    background-color: #0e0f11;
+    top: 50%;
+    left: 100%;
+    padding-left: 20px;   
+}
+.cancel-btn{
+    width: 20%;
+    height: 20%;
+    background-color: black;
+    color: rgb(130, 99, 99);
+    border: 1px solid #999;
+}
+.cancel-btn1{
+    margin-left: 25%;
+    background-color: rgb(68, 75, 75);
+    width: 20%;
+    height: 20%;
+    border: 1px solid #999;
+    color: white;
+}
+.cancel-btn2{
+   
+    background-color: rgb(10, 11, 11);
+    width: 20%;
+    height: 20%;
+    border: 1px solid rgb(53, 50, 50);
+    color: rgb(79, 190, 196);
+}

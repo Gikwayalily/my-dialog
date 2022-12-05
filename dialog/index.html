@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dialog</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <main class="main-page" >
+            <div class="avatar-container">
+                <img src="./imgs/avatar-5.png" />
+                <button>x</button>
+            </div>
+            <div class="avatar-container">
+                <img src="./imgs/avatar-5.png" />
+                <button>x</button>
+            </div>
+            <div class="add">
+            <!--<svg xmlns="http://www.w3.org/2000/svg" height="48" width="48">
+            <path d="M22.65 34h3v-8.3H34v-3h-8.35V14h-3v8.7H14v3h8.65ZM24 44q-4.1 0-7.75-1.575-3.65-1.575-6.375-4.3-2.725-2.725-4.3-6.375Q4 28.1 4 23.95q0-4.1 1.575-7.75 1.575-3.65 4.3-6.35 2.725-2.7 6.375-4.275Q19.9 4 24.05 4q4.1 0 7.75 1.575 3.65 1.575 6.35 4.275 2.7 2.7 4.275 6.35Q44 19.85 44 24q0 4.1-1.575 7.75-1.575 3.65-4.275 6.375t-6.35 4.3Q28.15 44 24 44Zm.05-3q7.05 0 12-4.975T41 23.95q0-7.05-4.95-12T24 7q-7.05 0-12.025 4.95Q7 16.9 7 24q0 7.05 4.975 12.025Q16.95 41 24.05 41ZM24 24Z"/>
+            </svg>-->
+            <label for="addition">+</label>
+                <input class="add-image" type="file" hidden />
+        </div>
+            <dialog open>
+                <header class="dialog-header">
+
+              <svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24">
+                        <title>A warning icon</title>
+                        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+                        <line x1="12" y1="9" x2="12" y2="13"></line>
+                        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                      </svg>
+
+
+                    <h1 class="dialog-title">Are you sure you want to remove this user?</h1>
+                </header>
+                <footer class="dialog-actions">
+                    <br>
+                    <button class="cancel-btn1" type="reset" onclick="this.closest('dialog').close('cancel')">Cancel</button>
+                   <button class="cancel-btn2" type="submit" value="confirm">Confirm</button>
+                </footer>
+
+            </dialog>
+            
+        </main>    </body>
+
+
+
+
+
+
+
+
+
+</html>
